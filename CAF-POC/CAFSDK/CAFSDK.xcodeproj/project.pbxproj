@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		392B1B3655F6FD21F4EDACAD /* Pods_CAFSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D746112D80291D81AEB8CB /* Pods_CAFSDK.framework */; };
 		44C339192A03FC5B00CFB30D /* CAFSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C339182A03FC5B00CFB30D /* CAFSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44C339222A03FE3800CFB30D /* CAFSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C339212A03FE3800CFB30D /* CAFSDK.swift */; };
+		44C339222A03FE3800CFB30D /* CAFTeste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C339212A03FE3800CFB30D /* CAFTeste.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02D746112D80291D81AEB8CB /* Pods_CAFSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAFSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C339152A03FC5B00CFB30D /* CAFSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAFSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C339182A03FC5B00CFB30D /* CAFSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAFSDK.h; sourceTree = "<group>"; };
-		44C339212A03FE3800CFB30D /* CAFSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFSDK.swift; sourceTree = "<group>"; };
+		44C339212A03FE3800CFB30D /* CAFTeste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAFTeste.swift; sourceTree = "<group>"; };
 		C4992F6C8E9B881BF7E14FEF /* Pods-CAFSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAFSDK.release.xcconfig"; path = "Target Support Files/Pods-CAFSDK/Pods-CAFSDK.release.xcconfig"; sourceTree = "<group>"; };
 		F6E25E85AF93DCDB1D8238C2 /* Pods-CAFSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAFSDK.debug.xcconfig"; path = "Target Support Files/Pods-CAFSDK/Pods-CAFSDK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +73,7 @@
 		44C339202A03FE1800CFB30D /* Access */ = {
 			isa = PBXGroup;
 			children = (
-				44C339212A03FE3800CFB30D /* CAFSDK.swift */,
+				44C339212A03FE3800CFB30D /* CAFTeste.swift */,
 			);
 			path = Access;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44C339222A03FE3800CFB30D /* CAFSDK.swift in Sources */,
+				44C339222A03FE3800CFB30D /* CAFTeste.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

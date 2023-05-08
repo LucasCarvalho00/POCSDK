@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     // MARK: - Private Functions
     
     private func callSDKCAF() {
-        CAFSDK().start(viewController: self)
+        CAFTeste().start(viewController: self)
     }
     
     // MARK: - Actions

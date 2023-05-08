@@ -15,7 +15,7 @@ PODS:
   - SentryPrivate (8.1.0)
 
 DEPENDENCIES:
-  - "CSLivenessSDK (from `https://CS-Package:qqemvutcki6rnss3g4ehtfnl6hipzjy5s3ntee7ilnqpywkvmllq@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK`, tag `1.1.4`)"
+  - "CSLivenessSDK (from `https://CS-Packages:vqmzn5v6liro5pjt5yzfj4wrv3h5eh54h75rz2ewq7fh3fcx7i7q@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK`, tag `1.1.4`)"
 
 SPEC REPOS:
   trunk:
@@ -27,12 +27,12 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   CSLivenessSDK:
-    :git: "https://CS-Package:qqemvutcki6rnss3g4ehtfnl6hipzjy5s3ntee7ilnqpywkvmllq@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK"
+    :git: "https://CS-Packages:vqmzn5v6liro5pjt5yzfj4wrv3h5eh54h75rz2ewq7fh3fcx7i7q@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK"
     :tag: 1.1.4
 
 CHECKOUT OPTIONS:
   CSLivenessSDK:
-    :git: "https://CS-Package:qqemvutcki6rnss3g4ehtfnl6hipzjy5s3ntee7ilnqpywkvmllq@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK"
+    :git: "https://CS-Packages:vqmzn5v6liro5pjt5yzfj4wrv3h5eh54h75rz2ewq7fh3fcx7i7q@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK"
     :tag: 1.1.4
 
 SPEC CHECKSUMS:
@@ -43,6 +43,6 @@ SPEC CHECKSUMS:
   Sentry: a73976b9f5a5141187b0c15432425a167c90d80f
   SentryPrivate: eb7ce6ea7ccf1bbeda1f3f37fa355668849426ae
 
-PODFILE CHECKSUM: dfc569b093cb938b54146b8a0da462c1ab1d248b
+PODFILE CHECKSUM: fc0eef5dbe46affbe09f9dbc07004db8b196406d
 
 COCOAPODS: 1.11.3
