@@ -9,14 +9,9 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
-@_inheritsConvenienceInitializers @objc public class CAFSDK : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @objc open class CAFTeste : ObjectiveC.NSObject {
   public func start(viewController: UIKit.UIViewController)
   public func callSDKLiveness(viewController: UIKit.UIViewController)
   @objc override dynamic public init()
   @objc deinit
-}
-extension CAFSDK.CAFSDK : CSLivenessSDK.CSLivenessDelegate {
-  public func liveness(didOpen: Swift.Bool)
-  public func liveness(error: CSLivenessSDK.CSLivenessError)
-  public func liveness(success: CSLivenessSDK.CSLivenessResult)
 }

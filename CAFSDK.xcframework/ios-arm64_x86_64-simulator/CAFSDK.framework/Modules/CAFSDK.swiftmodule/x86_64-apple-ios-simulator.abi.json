@@ -30,8 +30,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "CAFSDK",
-        "printedName": "CAFSDK",
+        "name": "CAFTeste",
+        "printedName": "CAFTeste",
         "children": [
           {
             "kind": "Function",
@@ -51,8 +51,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6CAFSDKAAC5start14viewControllerySo06UIViewD0C_tF",
-            "mangledName": "$s6CAFSDKAAC5start14viewControllerySo06UIViewD0C_tF",
+            "usr": "s:6CAFSDK8CAFTesteC5start14viewControllerySo06UIViewE0C_tF",
+            "mangledName": "$s6CAFSDK8CAFTesteC5start14viewControllerySo06UIViewE0C_tF",
             "moduleName": "CAFSDK",
             "declAttributes": [
               "AccessControl",
@@ -78,8 +78,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6CAFSDKAAC15callSDKLiveness14viewControllerySo06UIViewE0C_tF",
-            "mangledName": "$s6CAFSDKAAC15callSDKLiveness14viewControllerySo06UIViewE0C_tF",
+            "usr": "s:6CAFSDK8CAFTesteC15callSDKLiveness14viewControllerySo06UIViewF0C_tF",
+            "mangledName": "$s6CAFSDK8CAFTesteC15callSDKLiveness14viewControllerySo06UIViewF0C_tF",
             "moduleName": "CAFSDK",
             "declAttributes": [
               "AccessControl",
@@ -94,14 +94,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "CAFSDK",
-                "printedName": "CAFSDK.CAFSDK",
-                "usr": "c:@M@CAFSDK@objc(cs)CAFSDK"
+                "name": "CAFTeste",
+                "printedName": "CAFSDK.CAFTeste",
+                "usr": "c:@M@CAFSDK@objc(cs)CAFTeste"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@CAFSDK@objc(cs)CAFSDK(im)init",
-            "mangledName": "$s6CAFSDKAACABycfc",
+            "usr": "c:@M@CAFSDK@objc(cs)CAFTeste(im)init",
+            "mangledName": "$s6CAFSDK8CAFTesteCACycfc",
             "moduleName": "CAFSDK",
             "overriding": true,
             "implicit": true,
@@ -112,93 +112,13 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(didOpen:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6CAFSDKAAC8liveness7didOpenySb_tF",
-            "mangledName": "$s6CAFSDKAAC8liveness7didOpenySb_tF",
-            "moduleName": "CAFSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CSLivenessError",
-                "printedName": "CSLivenessSDK.CSLivenessError",
-                "usr": "s:13CSLivenessSDK0A5ErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6CAFSDKAAC8liveness5errory13CSLivenessSDK0D5ErrorO_tF",
-            "mangledName": "$s6CAFSDKAAC8liveness5errory13CSLivenessSDK0D5ErrorO_tF",
-            "moduleName": "CAFSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(success:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CSLivenessResult",
-                "printedName": "CSLivenessSDK.CSLivenessResult",
-                "usr": "c:@M@CSLivenessSDK@objc(cs)CSLivenessResult"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6CAFSDKAAC8liveness7successy13CSLivenessSDK0D6ResultC_tF",
-            "mangledName": "$s6CAFSDKAAC8liveness7successy13CSLivenessSDK0D6ResultC_tF",
-            "moduleName": "CAFSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@CAFSDK@objc(cs)CAFSDK",
-        "mangledName": "$s6CAFSDKAAC",
+        "usr": "c:@M@CAFSDK@objc(cs)CAFTeste",
+        "mangledName": "$s6CAFSDK8CAFTesteC",
         "moduleName": "CAFSDK",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -209,13 +129,6 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "CSLivenessDelegate",
-            "printedName": "CSLivenessDelegate",
-            "usr": "s:13CSLivenessSDK0A8DelegateP",
-            "mangledName": "$s13CSLivenessSDK0A8DelegateP"
-          },
           {
             "kind": "Conformance",
             "name": "Equatable",

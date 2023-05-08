@@ -252,11 +252,10 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC6CAFSDK6CAFSDK")
-@interface CAFSDK : NSObject
+SWIFT_CLASS("_TtC6CAFSDK8CAFTeste")
+@interface CAFTeste : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 #endif
 #if defined(__cplusplus)
@@ -520,11 +519,10 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
-SWIFT_CLASS("_TtC6CAFSDK6CAFSDK")
-@interface CAFSDK : NSObject
+SWIFT_CLASS("_TtC6CAFSDK8CAFTeste")
+@interface CAFTeste : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
-
 
 #endif
 #if defined(__cplusplus)
