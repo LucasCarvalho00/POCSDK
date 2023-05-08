@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CStestePOC'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This is a plugin for integrate HX liviness sdk.'
   s.description      = <<-DESC
   This is a plugin for integrate HX.
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://www.hxteam.com.br'
   s.license          = "MIT"
   s.author           = { 'Lucas Carvalho' => 'lucas@lucas.com.br' }
-  s.source           = { :git => 'https://github.com/LucasCarvalho00/POCSDK.git' }
+  s.source           = { :git => 'https://github.com/LucasCarvalho00/POCSDK.git', :tag => '1.0.1' }
   
   s.platform = :ios, '11.0'
   s.preserve_paths =  'CAFSDK.xcframework'
