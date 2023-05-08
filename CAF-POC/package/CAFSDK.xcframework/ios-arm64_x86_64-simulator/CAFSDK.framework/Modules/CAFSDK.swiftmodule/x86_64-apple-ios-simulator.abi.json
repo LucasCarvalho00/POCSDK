@@ -1,0 +1,274 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CAFSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CSLivenessSDK",
+        "printedName": "CSLivenessSDK",
+        "declKind": "Import",
+        "moduleName": "CAFSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CAFSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CAFSDK",
+        "printedName": "CAFSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CAFSDKAAC5start14viewControllerySo06UIViewD0C_tF",
+            "mangledName": "$s6CAFSDKAAC5start14viewControllerySo06UIViewD0C_tF",
+            "moduleName": "CAFSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callSDKLiveness",
+            "printedName": "callSDKLiveness(viewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CAFSDKAAC15callSDKLiveness14viewControllerySo06UIViewE0C_tF",
+            "mangledName": "$s6CAFSDKAAC15callSDKLiveness14viewControllerySo06UIViewE0C_tF",
+            "moduleName": "CAFSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CAFSDK",
+                "printedName": "CAFSDK.CAFSDK",
+                "usr": "c:@M@CAFSDK@objc(cs)CAFSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CAFSDK@objc(cs)CAFSDK(im)init",
+            "mangledName": "$s6CAFSDKAACABycfc",
+            "moduleName": "CAFSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(didOpen:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CAFSDKAAC8liveness7didOpenySb_tF",
+            "mangledName": "$s6CAFSDKAAC8liveness7didOpenySb_tF",
+            "moduleName": "CAFSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CSLivenessError",
+                "printedName": "CSLivenessSDK.CSLivenessError",
+                "usr": "s:13CSLivenessSDK0A5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CAFSDKAAC8liveness5errory13CSLivenessSDK0D5ErrorO_tF",
+            "mangledName": "$s6CAFSDKAAC8liveness5errory13CSLivenessSDK0D5ErrorO_tF",
+            "moduleName": "CAFSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CSLivenessResult",
+                "printedName": "CSLivenessSDK.CSLivenessResult",
+                "usr": "c:@M@CSLivenessSDK@objc(cs)CSLivenessResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CAFSDKAAC8liveness7successy13CSLivenessSDK0D6ResultC_tF",
+            "mangledName": "$s6CAFSDKAAC8liveness7successy13CSLivenessSDK0D6ResultC_tF",
+            "moduleName": "CAFSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CAFSDK@objc(cs)CAFSDK",
+        "mangledName": "$s6CAFSDKAAC",
+        "moduleName": "CAFSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CSLivenessDelegate",
+            "printedName": "CSLivenessDelegate",
+            "usr": "s:13CSLivenessSDK0A8DelegateP",
+            "mangledName": "$s13CSLivenessSDK0A8DelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

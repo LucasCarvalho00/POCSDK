@@ -1,0 +1,17 @@
+workspace 'poc-caf-sdk'
+
+platform :ios, '13.0'
+
+target 'CAFApp' do
+    project './CAFApp/CAFApp.xcodeproj'
+    use_frameworks!
+
+  pod 'CSLivenessSDK', :git => 'https://CS-Packages:""@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK', :tag => '1.1.3-hml'
+end
+
+target 'CAFSDK' do
+    project './CAFSDK/CAFSDK.xcodeproj'
+    use_frameworks!
+
+  pod 'CSLivenessSDK', :git => 'https://CS-Packages:""@dev.azure.com/CS-Package/ID-Lab-PackagesSDK/_git/CSLivenessSDK', :tag => '1.1.3-hml'
+end
