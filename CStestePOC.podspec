@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/LucasCarvalho00/POCSDK.git' }
   
   s.platform = :ios, '11.0'
-  s.preserve_paths =  'CStestePOC.xcframework'
-  s.ios.vendored_frameworks = 'CStestePOC.xcframework'
+  s.preserve_paths =  'CAFSDK.xcframework'
+  s.ios.vendored_frameworks = 'CAFSDK.xcframework'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386 arm64',  'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64'  }
   s.xcconfig = {'ENABLE_BITCODE' => 'NO'}
   s.swift_version = '5.0'
