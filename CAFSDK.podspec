@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CAFSDK'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'This is a plugin for integrate HX liviness sdk.'
   s.description      = <<-DESC
   This is a plugin for integrate HX.
